@@ -1,0 +1,7 @@
+Docker Images 
+1.docker images (to see docker images) 
+2.How to Inspect the Dockerfile in the webapp-color directory. 
+cd webapp-color 
+cat Dockerfile 
+3.Build a docker image using the Dockerfile and name it webapp-color. No tag to be specified. 
+docker build -t webapp-color .
