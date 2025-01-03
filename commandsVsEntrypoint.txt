@@ -1,0 +1,13 @@
+i) From Ubuntu
+CMD sleep 5
+
+docker run ubuntu-sleeper sleep 10
+
+ii) From Ubuntu
+ENTRYPOINT ["sleep"]
+
+docker run ubuntu-sleeper 10
+
+iii) From Ubuntu
+ENTRYPOINT ["sleep"]
+CMD ["5"]
