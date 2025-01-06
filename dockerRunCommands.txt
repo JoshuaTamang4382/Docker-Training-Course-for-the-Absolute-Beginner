@@ -1,0 +1,5 @@
+1.check running containers on the host
+docker run ps
+
+2. Run an instance of kodekloud/simple-webapp with a tag blue and map port 8080 on the container to 38282 on the host.
+docker run -d -p 38282:8080 kodekloud/simple-webapp:blue
