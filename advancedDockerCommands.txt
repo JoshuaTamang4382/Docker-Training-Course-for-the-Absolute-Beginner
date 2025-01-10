@@ -1,0 +1,5 @@
+1. to run in detach mode
+docker run -d timer
+
+2.to run in attach mode
+docker attach containerid
