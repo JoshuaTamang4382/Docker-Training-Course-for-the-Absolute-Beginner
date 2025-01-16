@@ -21,7 +21,7 @@ RUN sed --in-place '/"type": "module",/d' node_modules/@react-google-maps/api/pa
 
 COPY .env.sample .env
 # start app
-RUN yarn build
+RUN npm build
 
 FROM node:alpine AS runner
 WORKDIR /app
