@@ -51,3 +51,6 @@ worker:
 	links:
 		- db
 		- redis
+
+
+https://docs.docker.com/reference/cli/docker/compose/
